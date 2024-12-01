@@ -1,0 +1,20 @@
+--- Test Run started at: 2024-12-01 15:18:20 ---
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+Brute force protection not triggered,Brute force failed to return 429 status code after multiple failed attempts,High,9/10,1. Send multiple failed login attempts
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+--- Test Run started at: 2024-12-01 15:18:20 ---
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+Empty fields not handled properly,Empty fields did not return the expected error code,Medium,6/10,1. Send login request with empty fields
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+--- Test Run started at: 2024-12-01 15:18:20 ---
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+SQL injection not properly handled,SQL injection attempt did not return expected error code,High,8/10,1. Send login request with SQL injection in email
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+--- Test Run started at: 2024-12-01 15:18:20 ---
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+Weak password accepted,Weak password was accepted despite low complexity,High,8/10,1. Send login request with weak password
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+--- Test Run started at: 2024-12-01 15:18:20 ---
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+Expired JWT token not handled correctly,Expired JWT token did not return expected 401 status code,High,9/10,Token: expired-jwt-token-placeholder
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
