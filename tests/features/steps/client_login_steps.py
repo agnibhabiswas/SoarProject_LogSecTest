@@ -15,3 +15,5 @@ class BDDTestUser(HttpUser):
         }
         response = self.client.post("/client_login", data=login_data)
         assert response.status_code == 200, f"Login failed: {response.text}"
+
+

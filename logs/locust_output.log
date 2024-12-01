@@ -1,0 +1,245 @@
+[2024-12-01 16:11:17,962] AVICII/INFO/locust.main: Starting Locust 2.32.3
+[2024-12-01 16:11:17,963] AVICII/INFO/locust.main: Starting web interface at http://localhost:8089 (accepting connections from all network interfaces)
+[2024-12-01 16:11:21,311] AVICII/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2024-12-01 16:11:21,312] AVICII/INFO/locust.runners: All users spawned: {"LoadTestUser": 1} (1 total users)
+[2024-12-01 16:11:21,312] AVICII/INFO/locust: Sending registration request: {'fullName': 'EgNkDrxFVT', 'userName': 'bgcbufjgck', 'email': 'r5n26@example.com', 'password': 'E8qgiRCw', 'phone': '4243421884'}
+[2024-12-01 16:11:21,322] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:11:21,322] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:11:22,941] AVICII/INFO/locust: Sending registration request: {'fullName': 'HIJXRcRliP', 'userName': 'zunfgkgrpp', 'email': '7p4xb@example.com', 'password': 'zaOWgZp4', 'phone': '0593054339'}
+[2024-12-01 16:11:22,963] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:11:22,963] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:11:24,307] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'zunfgkgrpp', 'email': '7p4xb@example.com', 'password': 'zaOWgZp4'}
+[2024-12-01 16:11:24,312] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Inp1bmZna2dycHAiLCJlbWFpbCI6IjdwNHhiQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.S7v2yLZumjtR8_IIIlnxBXweL9IfBAgjSi_3faVDsNs"}
+
+[2024-12-01 16:11:24,313] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:25,766] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'zunfgkgrpp', 'email': '7p4xb@example.com', 'password': 'zaOWgZp4'}
+[2024-12-01 16:11:25,771] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Inp1bmZna2dycHAiLCJlbWFpbCI6IjdwNHhiQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.S7v2yLZumjtR8_IIIlnxBXweL9IfBAgjSi_3faVDsNs"}
+
+[2024-12-01 16:11:25,771] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:27,507] AVICII/INFO/locust: Sending registration request: {'fullName': 'irJprkgGPn', 'userName': 'kjvekyqzdm', 'email': 'cgwnb@example.com', 'password': 'aSDaLesQ', 'phone': '6182720018'}
+[2024-12-01 16:11:27,528] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:11:27,528] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:11:29,301] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'kjvekyqzdm', 'email': 'cgwnb@example.com', 'password': 'aSDaLesQ'}
+[2024-12-01 16:11:29,306] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtqdmVreXF6ZG0iLCJlbWFpbCI6ImNnd25iQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.lwmD9TrVidbKFVTaY0EUHRQ6F772EqOoEWV2DvTF1vU"}
+
+[2024-12-01 16:11:29,307] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:30,994] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'kjvekyqzdm', 'email': 'cgwnb@example.com', 'password': 'aSDaLesQ'}
+[2024-12-01 16:11:30,999] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtqdmVreXF6ZG0iLCJlbWFpbCI6ImNnd25iQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.lwmD9TrVidbKFVTaY0EUHRQ6F772EqOoEWV2DvTF1vU"}
+
+[2024-12-01 16:11:30,999] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:32,885] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'kjvekyqzdm', 'email': 'cgwnb@example.com', 'password': 'aSDaLesQ'}
+[2024-12-01 16:11:32,890] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtqdmVreXF6ZG0iLCJlbWFpbCI6ImNnd25iQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.lwmD9TrVidbKFVTaY0EUHRQ6F772EqOoEWV2DvTF1vU"}
+
+[2024-12-01 16:11:32,890] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:34,824] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'kjvekyqzdm', 'email': 'cgwnb@example.com', 'password': 'aSDaLesQ'}
+[2024-12-01 16:11:34,828] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtqdmVreXF6ZG0iLCJlbWFpbCI6ImNnd25iQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.lwmD9TrVidbKFVTaY0EUHRQ6F772EqOoEWV2DvTF1vU"}
+
+[2024-12-01 16:11:34,828] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:36,142] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'kjvekyqzdm', 'email': 'cgwnb@example.com', 'password': 'aSDaLesQ'}
+[2024-12-01 16:11:36,147] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtqdmVreXF6ZG0iLCJlbWFpbCI6ImNnd25iQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.lwmD9TrVidbKFVTaY0EUHRQ6F772EqOoEWV2DvTF1vU"}
+
+[2024-12-01 16:11:36,147] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:37,633] AVICII/INFO/locust: Sending registration request: {'fullName': 'adHJTgsPjS', 'userName': 'snuxrbmrvm', 'email': 'l1m2x@example.com', 'password': '4W24SnYu', 'phone': '8314628797'}
+[2024-12-01 16:11:37,644] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:11:37,644] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:11:39,633] AVICII/INFO/locust: Sending registration request: {'fullName': 'JDmIRzVtRu', 'userName': 'kvcaoidhoy', 'email': 'pi335@example.com', 'password': 'Nz0Z3yRp', 'phone': '2845974482'}
+[2024-12-01 16:11:39,652] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:11:39,652] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:11:41,610] AVICII/INFO/locust: Sending registration request: {'fullName': 'npTgjZdtQS', 'userName': 'msxsbumfng', 'email': '0zo8o@example.com', 'password': '4ZYdsAPn', 'phone': '2379231676'}
+[2024-12-01 16:11:41,631] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:11:41,632] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:11:42,658] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'msxsbumfng', 'email': '0zo8o@example.com', 'password': '4ZYdsAPn'}
+[2024-12-01 16:11:42,662] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Im1zeHNidW1mbmciLCJlbWFpbCI6IjB6bzhvQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.V541roe8Pp1BCMNJPAjJoibCrGa3TtNEfbbFMhF8yJM"}
+
+[2024-12-01 16:11:42,662] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:43,942] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'msxsbumfng', 'email': '0zo8o@example.com', 'password': '4ZYdsAPn'}
+[2024-12-01 16:11:43,946] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Im1zeHNidW1mbmciLCJlbWFpbCI6IjB6bzhvQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.V541roe8Pp1BCMNJPAjJoibCrGa3TtNEfbbFMhF8yJM"}
+
+[2024-12-01 16:11:43,946] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:45,005] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'msxsbumfng', 'email': '0zo8o@example.com', 'password': '4ZYdsAPn'}
+[2024-12-01 16:11:45,009] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Im1zeHNidW1mbmciLCJlbWFpbCI6IjB6bzhvQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.V541roe8Pp1BCMNJPAjJoibCrGa3TtNEfbbFMhF8yJM"}
+
+[2024-12-01 16:11:45,010] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:46,193] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'msxsbumfng', 'email': '0zo8o@example.com', 'password': '4ZYdsAPn'}
+[2024-12-01 16:11:46,200] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Im1zeHNidW1mbmciLCJlbWFpbCI6IjB6bzhvQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.V541roe8Pp1BCMNJPAjJoibCrGa3TtNEfbbFMhF8yJM"}
+
+[2024-12-01 16:11:46,200] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:48,096] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'msxsbumfng', 'email': '0zo8o@example.com', 'password': '4ZYdsAPn'}
+[2024-12-01 16:11:48,102] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Im1zeHNidW1mbmciLCJlbWFpbCI6IjB6bzhvQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.V541roe8Pp1BCMNJPAjJoibCrGa3TtNEfbbFMhF8yJM"}
+
+[2024-12-01 16:11:48,102] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:11:49,250] AVICII/INFO/locust: Sending registration request: {'fullName': 'DYoVJizDIF', 'userName': 'afivlihshx', 'email': 'johnu@example.com', 'password': 'q1LSX5sX', 'phone': '1005909613'}
+[2024-12-01 16:11:49,269] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:12:08,508] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:12:14,218] AVICII/INFO/locust.main: Shutting down (exit code 0)
+[2024-12-01 16:15:34,573] AVICII/INFO/locust.main: Starting Locust 2.32.3
+[2024-12-01 16:15:34,573] AVICII/INFO/locust.main: Starting web interface at http://localhost:8089 (accepting connections from all network interfaces)
+[2024-12-01 16:15:57,276] AVICII/INFO/locust.runners: Ramping to 100 users at a rate of 1.00 per second
+[2024-12-01 16:15:57,277] AVICII/WARNING/locust: Attempted login before registration data was available
+[2024-12-01 16:15:58,291] AVICII/INFO/locust: Sending registration request: {'fullName': 'zKkxpgHcnf', 'userName': 'vwxztfkiyx', 'email': 'hyqc3@example.com', 'password': '81gVrFrp', 'phone': '8581414301'}
+[2024-12-01 16:15:58,306] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:15:58,307] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:15:58,339] AVICII/INFO/locust: Sending registration request: {'fullName': 'fApFOMFdTV', 'userName': 'yhjwfhanbc', 'email': '37hw8@example.com', 'password': 'XU754UYn', 'phone': '9299872854'}
+[2024-12-01 16:15:58,352] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:15:58,352] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:15:59,305] AVICII/INFO/locust: Sending registration request: {'fullName': 'sYsbVWKHrG', 'userName': 'xodaiutdyo', 'email': 'e93fp@example.com', 'password': 'H7sbcfTv', 'phone': '8044185216'}
+[2024-12-01 16:15:59,327] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:15:59,327] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:15:59,523] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'vwxztfkiyx', 'email': 'hyqc3@example.com', 'password': '81gVrFrp'}
+[2024-12-01 16:15:59,531] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InZ3eHp0ZmtpeXgiLCJlbWFpbCI6Imh5cWMzQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.LMgxFMVO4B3Ee5lR_1dJiytQb8pCqXa_mm6_HUUe4pY"}
+
+[2024-12-01 16:15:59,531] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:15:59,826] AVICII/INFO/locust: Sending registration request: {'fullName': 'PhnLKpVPGh', 'userName': 'vbvqojqeag', 'email': 'jjqj5@example.com', 'password': 'J4n7RJIe', 'phone': '9585831001'}
+[2024-12-01 16:15:59,838] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:15:59,838] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:16:00,319] AVICII/WARNING/locust: Attempted login before registration data was available
+[2024-12-01 16:16:01,019] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'vwxztfkiyx', 'email': 'hyqc3@example.com', 'password': '81gVrFrp'}
+[2024-12-01 16:16:01,025] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InZ3eHp0ZmtpeXgiLCJlbWFpbCI6Imh5cWMzQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.LMgxFMVO4B3Ee5lR_1dJiytQb8pCqXa_mm6_HUUe4pY"}
+
+[2024-12-01 16:16:01,025] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:16:01,066] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'vbvqojqeag', 'email': 'jjqj5@example.com', 'password': 'J4n7RJIe'}
+[2024-12-01 16:16:01,072] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InZidnFvanFlYWciLCJlbWFpbCI6ImpqcWo1QGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.jhn9C_BPFbu5j2Bz8GbRCE61c5nna9_1pcKqQ3NJjhU"}
+
+[2024-12-01 16:57:21,950] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:22,034] AVICII/INFO/locust: Sending registration request: {'fullName': 'DzWnAypuQc', 'userName': 'tjpxhghqto', 'email': 'qkr1a@example.com', 'password': 'yHvmQkYQ', 'phone': '1645086147'}
+[2024-12-01 16:57:22,046] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:22,046] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:22,236] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'rqsxxshiyw', 'email': 'w2q43@example.com', 'password': 'L0szOgLm'}
+[2024-12-01 16:57:22,255] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJxc3h4c2hpeXciLCJlbWFpbCI6IncycTQzQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.XhfTOEqCqaiR3uSODz0jic3x285x6vP-NUiEYwOP778"}
+
+[2024-12-01 16:57:22,255] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:22,598] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'khfxhtkafo', 'email': '9h7oe@example.com', 'password': 'S0lSJryP'}
+[2024-12-01 16:57:22,598] AVICII/INFO/locust: Sending registration request: {'fullName': 'mknjUotjEL', 'userName': 'mlwiowclji', 'email': 'ezqau@example.com', 'password': 'JboMcMrz', 'phone': '3279569589'}
+[2024-12-01 16:57:22,604] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtoZnhodGthZm8iLCJlbWFpbCI6IjloN29lQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.laZlNJGH7PZLgIy1XUnOUEdlOKJ23cjIUt7dIBGj3oc"}
+
+[2024-12-01 16:57:22,604] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:22,622] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:22,622] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:22,910] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'yqfypkzuwd', 'email': '2z8or@example.com', 'password': 'jk92yS42'}
+[2024-12-01 16:57:22,917] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InlxZnlwa3p1d2QiLCJlbWFpbCI6IjJ6OG9yQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.R8ejNgv7btKu3HCCjmZc5ONzN1FyXJyJlB3EgrTsSKc"}
+
+[2024-12-01 16:57:22,917] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:22,956] AVICII/INFO/locust: Sending registration request: {'fullName': 'lnzNDMDuGe', 'userName': 'avzudorswf', 'email': 'd3v0n@example.com', 'password': 'iV9SJMou', 'phone': '0962925373'}
+[2024-12-01 16:57:22,978] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:22,978] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:22,988] AVICII/INFO/locust: Sending registration request: {'fullName': 'YpilrHsSpn', 'userName': 'qjszuupjpu', 'email': 'ahmxu@example.com', 'password': 'fGWzXoms', 'phone': '5344723884'}
+[2024-12-01 16:57:23,010] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:23,010] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:23,176] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'jejsxzswfj', 'email': 'zku7d@example.com', 'password': 'Ug2zG839'}
+[2024-12-01 16:57:23,176] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'ksoyzrmhpi', 'email': '97sa5@example.com', 'password': 'O92ZdMZ6'}
+[2024-12-01 16:57:23,182] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Imtzb3l6cm1ocGkiLCJlbWFpbCI6Ijk3c2E1QGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.z3-_wsy6hOb7Qpxw6DHYT1Zn_TY3Tb4SCMnvtrx0JRQ"}
+
+[2024-12-01 16:57:23,182] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:23,183] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImplanN4enN3ZmoiLCJlbWFpbCI6InprdTdkQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.TsvO1_d_J_qSSp7S2CAGLcd_KEQ44bcv847UfyX43Bc"}
+
+[2024-12-01 16:57:23,183] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:23,254] AVICII/INFO/locust: Sending registration request: {'fullName': 'UUpgTCdgfJ', 'userName': 'cfgqzdsxvc', 'email': '19ry1@example.com', 'password': 'vzCbJxAc', 'phone': '1935962559'}
+[2024-12-01 16:57:23,275] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:23,275] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:23,723] AVICII/INFO/locust: Sending registration request: {'fullName': 'ERViUNNxKz', 'userName': 'nrtdockcbv', 'email': 'gs8xz@example.com', 'password': 'XrhHfgiC', 'phone': '0234681667'}
+[2024-12-01 16:57:23,752] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:23,753] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:23,941] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'zklxulqtom', 'email': '2jx2x@example.com', 'password': 'vM8gzIwq'}
+[2024-12-01 16:57:23,947] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InprbHh1bHF0b20iLCJlbWFpbCI6IjJqeDJ4QGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.aglPYn303J-sALwFAnuTVtduSe0vkYBABIYDmxjbLPQ"}
+
+[2024-12-01 16:57:23,947] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:24,019] AVICII/INFO/locust: Sending registration request: {'fullName': 'cDQYjgYlqe', 'userName': 'hwkuznucve', 'email': 'qvp2m@example.com', 'password': 'YTCKOyLT', 'phone': '8591960255'}
+[2024-12-01 16:57:24,041] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:24,041] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:24,067] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'qjszuupjpu', 'email': 'ahmxu@example.com', 'password': 'fGWzXoms'}
+[2024-12-01 16:57:24,075] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InFqc3p1dXBqcHUiLCJlbWFpbCI6ImFobXh1QGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.7ay2KtGlgLwZOnHktLWTB7LfL5urrho61_mbx0Auwwo"}
+
+[2024-12-01 16:57:24,075] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:24,224] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'jejsxzswfj', 'email': 'zku7d@example.com', 'password': 'Ug2zG839'}
+[2024-12-01 16:57:24,229] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImplanN4enN3ZmoiLCJlbWFpbCI6InprdTdkQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.TsvO1_d_J_qSSp7S2CAGLcd_KEQ44bcv847UfyX43Bc"}
+
+[2024-12-01 16:57:24,229] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:24,256] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'avzudorswf', 'email': 'd3v0n@example.com', 'password': 'iV9SJMou'}
+[2024-12-01 16:57:24,261] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImF2enVkb3Jzd2YiLCJlbWFpbCI6ImQzdjBuQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.q5PBC-jQyYepo6phr9IDMfOYpFP3kJZxNI5x35QYveg"}
+
+[2024-12-01 16:57:24,261] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:24,443] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'yqfypkzuwd', 'email': '2z8or@example.com', 'password': 'jk92yS42'}
+[2024-12-01 16:57:24,447] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InlxZnlwa3p1d2QiLCJlbWFpbCI6IjJ6OG9yQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.R8ejNgv7btKu3HCCjmZc5ONzN1FyXJyJlB3EgrTsSKc"}
+
+[2024-12-01 16:57:24,448] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:24,506] AVICII/INFO/locust: Sending registration request: {'fullName': 'VebgrJhXpA', 'userName': 'sfxcscvzld', 'email': 'madiz@example.com', 'password': 'EYtds40P', 'phone': '8032274124'}
+[2024-12-01 16:57:24,526] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:24,526] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:24,914] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'ksoyzrmhpi', 'email': '97sa5@example.com', 'password': 'O92ZdMZ6'}
+[2024-12-01 16:57:24,920] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Imtzb3l6cm1ocGkiLCJlbWFpbCI6Ijk3c2E1QGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.z3-_wsy6hOb7Qpxw6DHYT1Zn_TY3Tb4SCMnvtrx0JRQ"}
+
+[2024-12-01 16:57:24,921] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:24,944] AVICII/INFO/locust: Sending registration request: {'fullName': 'NqnCSzRKUz', 'userName': 'zhhadnbjmi', 'email': '6ir4m@example.com', 'password': 'csAOzJbg', 'phone': '4807617259'}
+[2024-12-01 16:57:24,966] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:24,966] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:25,178] AVICII/INFO/locust: Sending registration request: {'fullName': 'HbTLbpfffb', 'userName': 'atypgngmql', 'email': 'yrkvl@example.com', 'password': 'tiswu8R9', 'phone': '5243358371'}
+[2024-12-01 16:57:25,190] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:25,190] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:25,350] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'qjszuupjpu', 'email': 'ahmxu@example.com', 'password': 'fGWzXoms'}
+[2024-12-01 16:57:25,356] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InFqc3p1dXBqcHUiLCJlbWFpbCI6ImFobXh1QGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.7ay2KtGlgLwZOnHktLWTB7LfL5urrho61_mbx0Auwwo"}
+
+[2024-12-01 16:57:25,357] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:25,381] AVICII/INFO/locust: Sending registration request: {'fullName': 'BslMpAunzC', 'userName': 'xfrbdwavci', 'email': 'gcw2q@example.com', 'password': 'RHbRadcR', 'phone': '9734467920'}
+[2024-12-01 16:57:25,395] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:25,395] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:25,881] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'hwkuznucve', 'email': 'qvp2m@example.com', 'password': 'YTCKOyLT'}
+[2024-12-01 16:57:25,886] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Imh3a3V6bnVjdmUiLCJlbWFpbCI6InF2cDJtQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.5t9aaWv66Lv9dKoVhErEAqbhbOTIw_npHDacy8lxGrA"}
+
+[2024-12-01 16:57:25,886] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:25,960] AVICII/INFO/locust: Sending registration request: {'fullName': 'kTfMfWUmmP', 'userName': 'wgybrdkgqi', 'email': '3kd7n@example.com', 'password': 'hYK7obsX', 'phone': '0737428472'}
+[2024-12-01 16:57:25,980] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:25,980] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:26,115] AVICII/INFO/locust: Sending registration request: {'fullName': 'CweFnDEthx', 'userName': 'hiktkxiswi', 'email': 'k7sjo@example.com', 'password': 'KxxCDbBb', 'phone': '5393018102'}
+[2024-12-01 16:57:26,125] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:26,125] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:26,242] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'avzudorswf', 'email': 'd3v0n@example.com', 'password': 'iV9SJMou'}
+[2024-12-01 16:57:26,254] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImF2enVkb3Jzd2YiLCJlbWFpbCI6ImQzdjBuQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.q5PBC-jQyYepo6phr9IDMfOYpFP3kJZxNI5x35QYveg"}
+
+[2024-12-01 16:57:26,254] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:26,319] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'ksoyzrmhpi', 'email': '97sa5@example.com', 'password': 'O92ZdMZ6'}
+[2024-12-01 16:57:26,319] AVICII/INFO/locust: Sending registration request: {'fullName': 'mgXuMMmfWY', 'userName': 'iogndamezs', 'email': 'a9koh@example.com', 'password': '5U2lSOXQ', 'phone': '5383330559'}
+[2024-12-01 16:57:26,325] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Imtzb3l6cm1ocGkiLCJlbWFpbCI6Ijk3c2E1QGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.z3-_wsy6hOb7Qpxw6DHYT1Zn_TY3Tb4SCMnvtrx0JRQ"}
+
+[2024-12-01 16:57:26,325] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:26,331] AVICII/INFO/locust: Registration response: 200 - {"msg":"User Registered"}
+
+[2024-12-01 16:57:26,332] AVICII/INFO/locust: Registration successful: 200
+[2024-12-01 16:57:26,660] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'atypgngmql', 'email': 'yrkvl@example.com', 'password': 'tiswu8R9'}
+[2024-12-01 16:57:26,667] AVICII/INFO/locust: Login response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImF0eXBnbmdtcWwiLCJlbWFpbCI6Inlya3ZsQGV4YW1wbGUuY29tIiwicm9sZSI6Mn0.kZYMrEQI_rfx08SzfJ1QLBI_a7pDprymzaD4qM92XIg"}
+
+[2024-12-01 16:57:26,668] AVICII/INFO/locust: Login successful: 200
+[2024-12-01 16:57:34,702] AVICII/INFO/locust: Sending registration request: {'fullName': 'OSfwrXCqWc', 'userName': 'gozofknxdh', 'email': 'n0egq@example.com', 'password': '6pl3nYpT', 'phone': '4414970630'}
+[2024-12-01 16:57:34,704] AVICII/INFO/locust: Sending registration request: {'fullName': 'OuZHkYrwym', 'userName': 'caghsnlbpt', 'email': 'jgjn6@example.com', 'password': 'XJGPoLkk', 'phone': '1450503032'}
+[2024-12-01 16:57:34,704] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'xfrbdwavci', 'email': 'gcw2q@example.com', 'password': 'RHbRadcR'}
+[2024-12-01 16:57:34,705] AVICII/INFO/locust: Sending registration request: {'fullName': 'iTpChnBhaf', 'userName': 'wpudveishg', 'email': '4om9o@example.com', 'password': 'Cz8E5jHD', 'phone': '4250894129'}
+[2024-12-01 16:57:34,706] AVICII/INFO/locust: Sending registration request: {'fullName': 'zrsxCSqRqR', 'userName': 'wszhejunih', 'email': 't5koe@example.com', 'password': '62xQAOBT', 'phone': '7672315202'}
+[2024-12-01 16:57:34,708] AVICII/INFO/locust: Sending registration request: {'fullName': 'ZBzQhzicQY', 'userName': 'cevfcbpjwk', 'email': 'ceh93@example.com', 'password': 'L7lJ0KuB', 'phone': '7372085957'}
+[2024-12-01 16:57:34,709] AVICII/INFO/locust: Sending registration request: {'fullName': 'mWZErhGZFV', 'userName': 'cocssksnvx', 'email': 'uqvfq@example.com', 'password': 'b2HE3CIL', 'phone': '4349781976'}
+[2024-12-01 16:57:34,710] AVICII/INFO/locust: Sending registration request: {'fullName': 'xEigVLhtfu', 'userName': 'zkmuocvhdi', 'email': 'zglie@example.com', 'password': 'AzuCzzPC', 'phone': '0920458038'}
+[2024-12-01 16:57:34,711] AVICII/INFO/locust: Sending registration request: {'fullName': 'AejZLAUgtD', 'userName': 'nugidkcysr', 'email': 'jxbd8@example.com', 'password': 'JLG8G3rk', 'phone': '8504794793'}
+[2024-12-01 16:57:34,712] AVICII/INFO/locust: Sending login request with registered data: {'userName': 'atypgngmql', 'email': 'yrkvl@example.com', 'password': 'tiswu8R9'}
+[2024-12-01 16:59:10,596] AVICII/INFO/locust.main: Shutting down (exit code 0)
